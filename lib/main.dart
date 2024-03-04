@@ -1,21 +1,17 @@
 import 'package:flutter/material.dart';
-import './screens/home_screen.dart';
-
-
+import 'package:flutter_application_1/screen/login_page.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-     home: HomeScreen(),
-      
-    );
+        title: 'Flutter Demo', theme: ThemeData(), home: LoginPage());
   }
 }
-
