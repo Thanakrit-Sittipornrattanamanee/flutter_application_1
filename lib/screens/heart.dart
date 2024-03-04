@@ -49,7 +49,7 @@ class _HeartPageState extends State<HeartPage>{
         gap: 50,
         tabs: const [
           GButton(
-            icon: Icons.favorite,
+            icon: Icons.favorite_border,
             text: 'Moods',
           ),
           GButton(
